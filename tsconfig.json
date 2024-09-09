@@ -16,5 +16,10 @@
     },
     "include": [
         "./src/**/*.ts",
-    ]
+    ],
+    "paths": {
+        "@application/*": [
+            "./src/*"
+        ]
+    }
 }
