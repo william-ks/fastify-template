@@ -12,7 +12,7 @@ const handleErrors = (
 		message: "Internal Server Error",
 	};
 
-	reply
+	return reply
 		.code(Number(error.code) || defaultError.code)
 		.send({ message: error.message || defaultError.message });
 
