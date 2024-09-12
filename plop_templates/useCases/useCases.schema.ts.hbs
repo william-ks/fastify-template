@@ -1,5 +1,5 @@
-const createUserSchema = {
-	tags: ["User"],
+const {{camelCase useCaseName}}Schema = {
+	tags: ["{{pascalCase moduleName}}"],
 	body: {
 		type: "object",
 		properties: {
@@ -9,4 +9,4 @@ const createUserSchema = {
 	},
 };
 
-export { createUserSchema };
+export { {{camelCase useCaseName}}Schema };

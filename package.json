@@ -1,12 +1,13 @@
 {
-  "name": "fastifyModel",
+  "name": "fastifyTemplate",
   "version": "1.0.0",
   "main": "index.js",
   "author": "William Krisley <will.ks2101@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "tsx watch ./src/server.ts",
-    "husky": "husky"
+    "husky": "husky",
+    "plop": "plop"
   },
   "dependencies": {
     "@fastify/swagger": "^8.15.0",
